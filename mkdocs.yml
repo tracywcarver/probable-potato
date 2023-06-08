@@ -1,0 +1,26 @@
+site_name: probable-potato
+# site_url: https://www.probable-potato.org/
+site_description: Project documentation with Markdown.
+site_author: tracywcarver
+
+repo_url: https://github.com/tracywcarver/probable-potato/
+edit_uri: blob/master/docs/
+
+nav:
+    - Home: index.md
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+          permalink: 
+    - attr_list
+    - def_list
+    - tables
+
+plugins:
+    - search
+
+watch:
+    - docs
